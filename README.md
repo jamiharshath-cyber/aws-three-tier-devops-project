@@ -89,3 +89,10 @@ terraform init
 
 # CI/CD Pipeline Test
 # CI/CD Pipeline Test
+## Deployment Status
+
+The application was successfully deployed and tested on AWS using ECS Fargate, Application Load Balancer, Amazon RDS MySQL, and Amazon ECR.
+
+The CI/CD workflow was validated using GitHub Actions to build and push Docker images to Amazon ECR, followed by deployment to Amazon ECS.
+
+The live AWS infrastructure may be decommissioned when not in use to minimize cloud costs. The infrastructure can be recreated using the Terraform configuration included in this repository.
