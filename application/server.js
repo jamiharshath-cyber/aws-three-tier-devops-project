@@ -8,7 +8,7 @@ app.use(express.json());
 
 
 app.get("/", (req, res) => {
-  res.send("AWS Three-Tier DevOps Application is running!");
+  res.send("AWS Three-Tier DevOps Application CI/CD deployment successful!");
 });
 
 app.get("/health", (req, res) => {
