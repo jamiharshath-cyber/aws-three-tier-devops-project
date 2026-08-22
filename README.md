@@ -13,6 +13,7 @@ The architecture separates the application into:
 - Database Tier
 
 ## Architecture
+![AWS Three-Tier Architecture](docs/images/aws-architecture.png)
 
 Internet
    |
